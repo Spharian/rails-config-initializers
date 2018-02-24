@@ -2,8 +2,7 @@
 
 ## Description
 - Wrap every HTML attributes by double quotes
-- Override Rails tag helper to remove the useless self-closing tags (HTML5)
-- Override Haml build_attributes method to avoid attributes ordering
+- Minify HTML in production
 
 ## Install
 Simply put the `haml.rb` file into your `config/initializers` directory.
